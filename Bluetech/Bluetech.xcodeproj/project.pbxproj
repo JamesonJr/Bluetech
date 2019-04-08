@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3AC0D2EE944F23B6EBDD4D0 /* Pods_Bluetech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5834FE7450806A74AFD1C550 /* Pods_Bluetech.framework */; };
+		E95C21652257AA7500D6B7B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95C21642257AA7500D6B7B5 /* AppDelegate.swift */; };
+		E95C216A2257AA7500D6B7B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95C21682257AA7500D6B7B5 /* Main.storyboard */; };
+		E95C216D2257AA7500D6B7B5 /* Bluetech.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E95C216B2257AA7500D6B7B5 /* Bluetech.xcdatamodeld */; };
+		E95C216F2257AA7800D6B7B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95C216E2257AA7800D6B7B5 /* Assets.xcassets */; };
+		E95C21722257AA7800D6B7B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95C21702257AA7800D6B7B5 /* LaunchScreen.storyboard */; };
+		E95C217A225A61C900D6B7B5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95C2179225A61C900D6B7B5 /* TableViewController.swift */; };
+		E95C217C225A61DD00D6B7B5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95C217B225A61DD00D6B7B5 /* TableViewCell.swift */; };
+		E95C2181225ABD0700D6B7B5 /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95C2180225ABD0700D6B7B5 /* CellModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5834FE7450806A74AFD1C550 /* Pods_Bluetech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bluetech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D83DE561995E0E83D8B283 /* Pods-Bluetech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bluetech.debug.xcconfig"; path = "Target Support Files/Pods-Bluetech/Pods-Bluetech.debug.xcconfig"; sourceTree = "<group>"; };
+		C974A33CA4612D44244C5DB1 /* Pods-Bluetech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bluetech.release.xcconfig"; path = "Target Support Files/Pods-Bluetech/Pods-Bluetech.release.xcconfig"; sourceTree = "<group>"; };
+		E95C21612257AA7500D6B7B5 /* Bluetech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bluetech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95C21642257AA7500D6B7B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E95C21692257AA7500D6B7B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E95C216C2257AA7500D6B7B5 /* Bluetech.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bluetech.xcdatamodel; sourceTree = "<group>"; };
+		E95C216E2257AA7800D6B7B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E95C21712257AA7800D6B7B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E95C21732257AA7800D6B7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95C2179225A61C900D6B7B5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E95C217B225A61DD00D6B7B5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E95C2180225ABD0700D6B7B5 /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E95C215E2257AA7500D6B7B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3AC0D2EE944F23B6EBDD4D0 /* Pods_Bluetech.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34A33FD9982A7D73F3294816 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76D83DE561995E0E83D8B283 /* Pods-Bluetech.debug.xcconfig */,
+				C974A33CA4612D44244C5DB1 /* Pods-Bluetech.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D6FC29FFCC360BF48B18EEB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5834FE7450806A74AFD1C550 /* Pods_Bluetech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E95C21582257AA7500D6B7B5 = {
+			isa = PBXGroup;
+			children = (
+				E95C21632257AA7500D6B7B5 /* Bluetech */,
+				34A33FD9982A7D73F3294816 /* Pods */,
+				D6FC29FFCC360BF48B18EEB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E95C21622257AA7500D6B7B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E95C21612257AA7500D6B7B5 /* Bluetech.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E95C21632257AA7500D6B7B5 /* Bluetech */ = {
+			isa = PBXGroup;
+			children = (
+				E95C217D225A62B600D6B7B5 /* Supporting Files */,
+				E95C21682257AA7500D6B7B5 /* Main.storyboard */,
+				E95C21732257AA7800D6B7B5 /* Info.plist */,
+				E95C216B2257AA7500D6B7B5 /* Bluetech.xcdatamodeld */,
+				E95C2179225A61C900D6B7B5 /* TableViewController.swift */,
+				E95C217B225A61DD00D6B7B5 /* TableViewCell.swift */,
+				E95C2180225ABD0700D6B7B5 /* CellModel.swift */,
+				E95C21622257AA7500D6B7B5 /* Products */,
+			);
+			path = Bluetech;
+			sourceTree = "<group>";
+		};
+		E95C217D225A62B600D6B7B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E95C21642257AA7500D6B7B5 /* AppDelegate.swift */,
+				E95C216E2257AA7800D6B7B5 /* Assets.xcassets */,
+				E95C21702257AA7800D6B7B5 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E95C21602257AA7500D6B7B5 /* Bluetech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95C21762257AA7800D6B7B5 /* Build configuration list for PBXNativeTarget "Bluetech" */;
+			buildPhases = (
+				DACFEC9EB4191FC988287B27 /* [CP] Check Pods Manifest.lock */,
+				E95C215D2257AA7500D6B7B5 /* Sources */,
+				E95C215E2257AA7500D6B7B5 /* Frameworks */,
+				E95C215F2257AA7500D6B7B5 /* Resources */,
+				86B3EA3C580D334AAFC41C69 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bluetech;
+			productName = Bluetech;
+			productReference = E95C21612257AA7500D6B7B5 /* Bluetech.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E95C21592257AA7500D6B7B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Eugenie Tyan";
+				TargetAttributes = {
+					E95C21602257AA7500D6B7B5 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = E95C215C2257AA7500D6B7B5 /* Build configuration list for PBXProject "Bluetech" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E95C21582257AA7500D6B7B5;
+			productRefGroup = E95C21622257AA7500D6B7B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E95C21602257AA7500D6B7B5 /* Bluetech */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E95C215F2257AA7500D6B7B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95C21722257AA7800D6B7B5 /* LaunchScreen.storyboard in Resources */,
+				E95C216F2257AA7800D6B7B5 /* Assets.xcassets in Resources */,
+				E95C216A2257AA7500D6B7B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86B3EA3C580D334AAFC41C69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bluetech/Pods-Bluetech-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bluetech/Pods-Bluetech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DACFEC9EB4191FC988287B27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bluetech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E95C215D2257AA7500D6B7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95C217C225A61DD00D6B7B5 /* TableViewCell.swift in Sources */,
+				E95C21652257AA7500D6B7B5 /* AppDelegate.swift in Sources */,
+				E95C216D2257AA7500D6B7B5 /* Bluetech.xcdatamodeld in Sources */,
+				E95C2181225ABD0700D6B7B5 /* CellModel.swift in Sources */,
+				E95C217A225A61C900D6B7B5 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E95C21682257AA7500D6B7B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95C21692257AA7500D6B7B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E95C21702257AA7800D6B7B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95C21712257AA7800D6B7B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E95C21742257AA7800D6B7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E95C21752257AA7800D6B7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E95C21772257AA7800D6B7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D83DE561995E0E83D8B283 /* Pods-Bluetech.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24C663Z4HT;
+				INFOPLIST_FILE = Bluetech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Eugenie.Bluetech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E95C21782257AA7800D6B7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C974A33CA4612D44244C5DB1 /* Pods-Bluetech.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24C663Z4HT;
+				INFOPLIST_FILE = Bluetech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Eugenie.Bluetech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E95C215C2257AA7500D6B7B5 /* Build configuration list for PBXProject "Bluetech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95C21742257AA7800D6B7B5 /* Debug */,
+				E95C21752257AA7800D6B7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95C21762257AA7800D6B7B5 /* Build configuration list for PBXNativeTarget "Bluetech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95C21772257AA7800D6B7B5 /* Debug */,
+				E95C21782257AA7800D6B7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E95C216B2257AA7500D6B7B5 /* Bluetech.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E95C216C2257AA7500D6B7B5 /* Bluetech.xcdatamodel */,
+			);
+			currentVersion = E95C216C2257AA7500D6B7B5 /* Bluetech.xcdatamodel */;
+			path = Bluetech.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E95C21592257AA7500D6B7B5 /* Project object */;
+}
